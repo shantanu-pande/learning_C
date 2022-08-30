@@ -1,7 +1,7 @@
 /*
-Date    : 30-08-2022
-Author  : iam7t9
-About   : adds two number
+Date        : 30-08-2022
+Author      : iam7t9
+Description : adds two number
 */
 
 #include<stdio.h>
