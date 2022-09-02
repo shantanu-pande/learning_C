@@ -1,3 +1,5 @@
 # Learning ...
 
-add somthing here when code uploded :)
+First add program written.
+
+learning git :)
