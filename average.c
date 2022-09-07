@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<process.h>
 
 int main(){
     int flag=1, count=0;
@@ -11,12 +12,12 @@ int main(){
         if (input == 0){
             average = sum/count;
             flag = 0; }
-        else{
-            sum = sum + input;
-            ++count;
-        }
+        
+        else{sum = sum + input;
+            ++count;}
     }
-    printf("Average is : %f", average);
-
+    printf("Average is : %f\n", average);
+    system("pause");
+    
     return 0;
 }
