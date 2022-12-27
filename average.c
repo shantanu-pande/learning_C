@@ -1,23 +1,19 @@
 #include<stdio.h>
-#include<process.h>
 
-int main(){
-    int flag=1, count=0;
-    float average=0, sum=0, input=0;    
-
-    while(flag == 1){
-        printf("Values for avrage [to exit enter 0]: ");
-        scanf("%f", &input);
-
-        if (input == 0){
-            average = sum/count;
-            flag = 0; }
-        
-        else{sum = sum + input;
-            ++count;}
-    }
-    printf("Average is : %f\n", average);
-    system("pause");
-    
-    return 0;
-}
+int main()
+{
+	float sum=0;
+	int n;
+	
+	printf("Total numbers: ");
+	scanf("%d", &n);
+	
+	printf("Enter %d numbers\n", n);
+	for (int i=n;i>0;i--)
+	{
+		float inp;
+		scanf("%f", &inp);
+		sum += inp;
+	}
+	printf("Average is: %f\n", sum/n);	
+}	
